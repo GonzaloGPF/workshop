@@ -1,0 +1,28 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 0.5em;
+  padding: 1em;
+}
+
+table tr th {
+  font-weight: 600;
+}
+
+.table th,
+.table td {
+  padding: 0.25rem;
+  border-top: none;
+}
+
+label {
+  padding: 0;
+}

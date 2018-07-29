@@ -1,0 +1,26 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "vars";
+// Vendor
+@import "~bootstrap/scss/bootstrap";
+@import "~vue-material/dist/vue-material.css";
+@import "~vue-material/dist/theme/default.css";
+@import "vendor/animate";
+// Globals
+@import "globals/reset";
+@import "globals/_vue-material.scss";
+@import "globals/utils";
+@import "globals/buttons";
+@import "globals/transitions";
+@import "globals/loaders";
+
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+[v-cloak] > * {
+  display: none;
+}

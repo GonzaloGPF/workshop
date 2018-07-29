@@ -1,0 +1,90 @@
+/////////////////////////////////////// Texts
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: gray;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/////////////////////////////////////// Backgrounds
+.no-bg {
+  background: none !important;
+}
+
+// Overrides bootstrap generated .bg-* class to set text color as white
+.bg-primary,
+.bg-danger,
+.bg-success,
+.bg-warning,
+.bg-info {
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: #e6ecea;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/////////////////////////////////////// Borders
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.rounded-50 {
+  border-radius: 50px;
+}
+
+/////////////////////////////////////// Spacing
+.separator-b {
+  border-bottom: 1px solid #ccc;
+}
+
+.separator-t {
+  border-top: 1px solid #ccc;
+}
+
+/////////////////////////////////////// Animations
+.animation-d-1 {
+  animation-duration: 1s;
+}
+
+.animation-d-2 {
+  animation-duration: 2s;
+}
+
+.animation-d-3 {
+  animation-duration: 3s;
+}
+
+/////////////////////////////////////// Others
+.pointer {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.65;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
